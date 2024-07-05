@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.clip-path {
+  clip-path: polygon(71% 0, 100% 28%, 100% 100%, 0 100%, 0 0);
+}
+
+td {
+  width: 500px;
+  padding: 5px;
+}
