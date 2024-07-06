@@ -1,4 +1,5 @@
 import About from "./Components/About";
+import Education from "./Components/Education";
 import Home from "./Components/Home";
 import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
@@ -11,6 +12,7 @@ const Portfolio = () => {
         <About></About>
         <Skills></Skills>
         <Projects></Projects>
+        <Education></Education>
       </div>
     </div>
   );

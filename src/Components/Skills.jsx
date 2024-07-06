@@ -31,7 +31,7 @@ const Skills = () => {
               <img src={html} className="w-full h-full" alt="" />
             </div>
           </div>
-          <div className="hexagon bg-[#272727e6]  flex items-center justify-center  h-[200px] w-[200px]">
+          <div className="hexagon  bg-[#272727e6]  flex items-center justify-center  h-[200px] w-[200px]">
             <div className="w-[100px] h-[100px] ">
               <img src={CSS} className="w-full h-full" alt="" />
             </div>
