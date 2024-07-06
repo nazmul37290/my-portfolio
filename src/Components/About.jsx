@@ -5,7 +5,10 @@ import { FaDownload } from "react-icons/fa";
 const About = () => {
   return (
     <>
-      <div className="flex flex-col lg:flex-row justify-center py-24  items-center gap-10">
+      <div
+        id="about"
+        className="flex flex-col lg:flex-row justify-center py-24  items-center gap-10"
+      >
         <div className="flex justify-center w-1/2">
           <div className="">
             <SectionHeading

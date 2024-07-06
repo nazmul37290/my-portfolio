@@ -6,7 +6,7 @@ import { FaFirefoxBrowser, FaGithub, FaServer } from "react-icons/fa";
 import { FaComputer } from "react-icons/fa6";
 const Projects = () => {
   return (
-    <div className="my-24">
+    <div id="projects" className="my-24">
       <div className="text-center">
         <SectionHeading
           heading={"Projects"}

@@ -16,7 +16,7 @@ import photoshop from "../assets/images/photoshop.png";
 
 const Skills = () => {
   return (
-    <div className="mt-24">
+    <div id="skills" className="mt-24">
       <div className="text-center">
         <SectionHeading
           heading={"Skills"}

@@ -6,20 +6,40 @@ const Home = () => {
   return (
     <div>
       {/* Home section */}
-      <section>
+      <section id="home">
         <nav className="flex justify-between  px-5 py-4">
           <div>
             <h3 className="text-main text-2xl font-bold">NazmulHaque</h3>
           </div>
+          <div className="text-white space-x-5 font-medium">
+            <a href="#home" target="_blank">
+              Home
+            </a>
+            <a href="#about" target="_blank">
+              About
+            </a>
+            <a href="#skills" target="_blank">
+              Skills{" "}
+            </a>
+            <a href="#projects" target="_blank">
+              Projects{" "}
+            </a>
+            <a href="#education" target="_blank">
+              Education
+            </a>
+            <a href="#contact" target="_blank">
+              Contact
+            </a>
+          </div>
           <div className="flex gap-8 items-center">
             <div className="text-white text-2xl flex gap-3">
-              <a href="">
+              <a href="https://www.facebook.com/nazmulhaquenhz">
                 <FaFacebook></FaFacebook>
               </a>
-              <a href="">
+              <a href="https://github.com/nazmul37290-">
                 <FaGithub></FaGithub>
               </a>
-              <a href="">
+              <a href="https://www.linkedin.com/in/nazmul-haque-nhz/">
                 <FaLinkedin></FaLinkedin>
               </a>
             </div>

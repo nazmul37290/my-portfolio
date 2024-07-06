@@ -3,7 +3,7 @@ import bpi from "../assets/images/bpi.png";
 
 const Education = () => {
   return (
-    <div className="pt-24">
+    <div id="education" className="pt-24">
       <div className="text-center">
         <SectionHeading
           title={"Don't Hesitate to Discover My Educational Pathway"}

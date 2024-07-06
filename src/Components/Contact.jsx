@@ -1,10 +1,32 @@
 import { FaLocationDot } from "react-icons/fa6";
 import SectionHeading from "../Shared/SectionHeading";
-import { FaEnvelope, FaPhone, FaPhoneAlt } from "react-icons/fa";
-
+import { FaEnvelope, FaPhoneAlt } from "react-icons/fa";
+import emailjs from "@emailjs/browser";
+import { useRef } from "react";
+import "react-toastify/dist/ReactToastify.css";
+import { toast } from "react-toastify";
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("service_efpfcbr", "template_4kfw5s3", form.current, {
+        publicKey: "O3PqEypvfLMId1qW3",
+      })
+      .then(
+        () => {
+          toast.success("Message Sent");
+          e.target.reset();
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
+  };
   return (
-    <div className="mt-24">
+    <div id="contact" className="mt-24">
       <div className="text-center">
         <SectionHeading
           heading={"Contact Me"}
@@ -42,12 +64,12 @@ const Contact = () => {
           </div>
         </div>
         <div className="w-2/3">
-          <form className="space-y-5">
-            <div className="flex gap-10">
+          <form ref={form} onSubmit={sendEmail} className="space-y-5">
+            <div className="flex text-white gap-10">
               <input
                 className="p-4 w-full  bg-transparent border-main border rounded-xl"
                 type="text"
-                name=""
+                name="from_name"
                 placeholder="Your Name*"
                 required
                 id=""
@@ -55,15 +77,16 @@ const Contact = () => {
               <input
                 type="email"
                 required
+                name="reply_to"
                 className="p-4 w-full bg-transparent border-main border rounded-xl"
                 placeholder="Your Email*"
               />
             </div>
-            <div className="flex gap-10">
+            <div className="flex text-white gap-10">
               <input
                 className="p-4 w-full bg-transparent border-main border rounded-xl"
                 type="number"
-                name=""
+                name="phone"
                 placeholder="Your Phone"
                 required
                 id=""
@@ -72,11 +95,12 @@ const Contact = () => {
                 type="text"
                 className="p-4 w-full bg-transparent border-main border rounded-xl"
                 placeholder="Subject"
+                name="subject"
               />
             </div>
             <textarea
-              className="p-4 w-full bg-transparent border-main border rounded-xl"
-              name=""
+              className="p-4 w-full text-white bg-transparent border-main border rounded-xl"
+              name="message"
               id=""
               cols="30"
               rows="5"
