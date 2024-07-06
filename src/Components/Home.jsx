@@ -24,6 +24,7 @@ const Home = () => {
               </a>
             </div>
             <Button
+              href="web_developer_resume_Nazmul.pdf"
               className="text-white bg-transparent border-main"
               type="default"
               shape="round"
