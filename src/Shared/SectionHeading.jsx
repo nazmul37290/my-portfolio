@@ -3,7 +3,9 @@ const SectionHeading = ({ heading, title }) => {
     <div className="max-w-screen-xl mx-auto">
       <p className="text-main">{heading}</p>
 
-      <h1 className="text-2xl lg:text-4xl font-bold text-white">{title}</h1>
+      <h1 className="text-2xl w-[450px] mx-auto lg:text-4xl font-bold text-white">
+        {title}
+      </h1>
     </div>
   );
 };
