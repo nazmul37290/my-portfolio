@@ -7,9 +7,9 @@ const Home = () => {
     <div>
       {/* Home section */}
       <section id="home">
-        <nav className="flex justify-between  px-2 md:px-5 py-4">
+        <nav className="flex justify-between items-center px-2 md:px-5 py-4">
           <div>
-            <h3 className="text-main text-lg md:text-2xl font-bold">
+            <h3 className="text-main text-lg md:text-xl lg:2xl font-bold">
               NazmulHaque
             </h3>
           </div>
@@ -34,7 +34,7 @@ const Home = () => {
             </a>
           </div>
           <div className="flex gap-8  items-center">
-            <div className="text-white hidden text-2xl md:flex gap-3">
+            <div className="text-white hidden text-2xl lg:flex gap-3">
               <a href="https://www.facebook.com/nazmulhaquenhz">
                 <FaFacebook></FaFacebook>
               </a>
@@ -118,7 +118,7 @@ const Home = () => {
           />
         </div>
       </section>
-      <div className="bg-[#202020] relative  h-[150px] w-full -top-28 z-20 text-main"></div>
+      <div className="bg-[#202020] relative  h-[150px] w-full -top-28 md:-top-20 lg:-top-28 z-20 text-main"></div>
     </div>
   );
 };
