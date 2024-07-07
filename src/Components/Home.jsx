@@ -7,11 +7,13 @@ const Home = () => {
     <div>
       {/* Home section */}
       <section id="home">
-        <nav className="flex justify-between  px-5 py-4">
+        <nav className="flex justify-between  px-2 md:px-5 py-4">
           <div>
-            <h3 className="text-main text-2xl font-bold">NazmulHaque</h3>
+            <h3 className="text-main text-lg md:text-2xl font-bold">
+              NazmulHaque
+            </h3>
           </div>
-          <div className="text-white space-x-5 font-medium">
+          <div className="text-white hidden md:block space-x-5 font-medium">
             <a href="#home" target="_blank">
               Home
             </a>
@@ -31,8 +33,8 @@ const Home = () => {
               Contact
             </a>
           </div>
-          <div className="flex gap-8 items-center">
-            <div className="text-white text-2xl flex gap-3">
+          <div className="flex gap-8  items-center">
+            <div className="text-white hidden text-2xl md:flex gap-3">
               <a href="https://www.facebook.com/nazmulhaquenhz">
                 <FaFacebook></FaFacebook>
               </a>
@@ -56,7 +58,7 @@ const Home = () => {
           </div>
         </nav>
       </section>
-      <section className="max-w-screen-xl h-[800px] flex justify-between items-center mx-auto">
+      <section className="max-w-screen-xl  h-[800px] flex flex-col lg:flex-row  lg:justify-between items-center mx-auto">
         {/* left side  */}
         <div>
           <p className="text-main text-xl  font-bold">Hello, I am</p>
@@ -107,10 +109,10 @@ const Home = () => {
           </Button>
         </div>
         {/* right side  */}
-        <div className="relative ">
-          <div className="h-[500px] w-[500px] my-auto bg-main rounded-full"></div>
+        <div className="relative mt-10">
+          <div className="h-[250px] w-[250px] md:h-[500px] md:w-[500px] my-auto bg-main rounded-full"></div>
           <img
-            className="absolute  z-10 -top-16 left-10 drop-shadow-2xl "
+            className="absolute  z-10 top-0 lg:-top-16 md:left-10 drop-shadow-2xl "
             src={image}
             alt=""
           />

@@ -10,9 +10,9 @@ const Education = () => {
           heading={"Education"}
         ></SectionHeading>
       </div>
-      <div className="flex gap-10 mt-10 items-center ">
+      <div className="flex flex-col lg:flex-row gap-10 mt-10 items-center ">
         {/* card one */}
-        <div className="flex items-center justify-between bg-[#272727e6] w-1/2 rounded-2xl p-10  ">
+        <div className="flex items-center justify-between bg-[#272727e6] w-full lg:w-1/2 rounded-2xl p-10  ">
           <div className="">
             <p className="text-main font-medium text-lg">2019-2023</p>
             <h2 className="text-white font-bold text-2xl my-2">
@@ -29,7 +29,7 @@ const Education = () => {
           </div>
         </div>
         {/* card two */}
-        <div className="bg-[#272727e6] flex items-center justify-between w-1/2 rounded-2xl p-10  ">
+        <div className="bg-[#272727e6] flex items-center justify-between w-full lg:w-1/2 rounded-2xl p-10  ">
           <div>
             <p className="text-main font-medium text-lg">2019</p>
             <h2 className="text-white font-bold text-2xl my-2">

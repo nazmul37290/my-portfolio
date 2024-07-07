@@ -9,7 +9,7 @@ import Footer from "./Components/Footer";
 
 const Portfolio = () => {
   return (
-    <div>
+    <div className="p-2 lg:p-0">
       <ToastContainer />
       <Home></Home>
       <div className="max-w-screen-2xl mx-auto">

@@ -2,7 +2,7 @@ import SectionHeading from "../Shared/SectionHeading";
 import project1 from "../assets/images/project1.jpg";
 import project2 from "../assets/images/project2.jpg";
 import project3 from "../assets/images/project3.jpg";
-import { FaFirefoxBrowser, FaGithub, FaServer } from "react-icons/fa";
+import { FaFirefoxBrowser, FaServer } from "react-icons/fa";
 import { FaComputer } from "react-icons/fa6";
 const Projects = () => {
   return (
@@ -13,8 +13,8 @@ const Projects = () => {
           title={"Explore My Web Development Projects"}
         ></SectionHeading>
       </div>
-      <div className="grid grid-cols-3 gap-5 mt-10">
-        <div className="bg-[#272727e6] rounded-2xl p-5  w-[450px] shadow-xl shadow-main">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-5 mt-10">
+        <div className="bg-[#272727e6] rounded-2xl p-5  w-full lg:w-[450px] shadow-xl shadow-main">
           <div>
             <img src={project2} className="rounded-2xl" alt="" />
           </div>
@@ -48,7 +48,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="bg-[#272727e6] rounded-2xl p-5  w-[450px] shadow-xl shadow-main">
+        <div className="bg-[#272727e6] rounded-2xl p-5   w-full lg:w-[450px] shadow-xl shadow-main">
           <div>
             <img src={project3} className="rounded-2xl" alt="" />
           </div>
@@ -82,7 +82,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="bg-[#272727e6] rounded-2xl p-5  w-[450px] shadow-xl shadow-main">
+        <div className="bg-[#272727e6] rounded-2xl p-5   w-full lg:w-[450px] shadow-xl shadow-main">
           <div>
             <img src={project1} className="rounded-2xl" alt="" />
           </div>

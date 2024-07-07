@@ -33,8 +33,8 @@ const Contact = () => {
           title={"Don't be shy, Say Me Hello Now"}
         ></SectionHeading>
       </div>
-      <div className="flex mt-10">
-        <div className="space-y-4 w-1/3">
+      <div className="flex flex-col gap-5 lg:flex-row mt-10">
+        <div className="space-y-4 w-auto lg:w-1/3">
           <div className="flex items-center gap-5">
             <div className="text-3xl bg-[#272727e6] text-main p-5 rounded-full">
               <FaLocationDot></FaLocationDot>
@@ -63,7 +63,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="w-2/3">
+        <div className="w-full p-2 lg:p-0 lg:w-2/3">
           <form ref={form} onSubmit={sendEmail} className="space-y-5">
             <div className="flex text-white gap-10">
               <input

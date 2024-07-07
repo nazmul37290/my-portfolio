@@ -7,24 +7,24 @@ const About = () => {
     <>
       <div
         id="about"
-        className="flex flex-col lg:flex-row justify-center py-24  items-center gap-10"
+        className="flex p-2 md:p-0 flex-col lg:flex-row justify-center py-0 lg:py-24  items-center gap-10"
       >
-        <div className="flex justify-center w-1/2">
+        <div className="flex flex-col md:flex-row justify-center w-full md:w-1/2">
           <div className="">
             <SectionHeading
               heading={"About me"}
               title={"Web Developer"}
             ></SectionHeading>
-            <div className="w-[400px] h-[400px] mt-10 clip-path">
+            <div className="w-full h-full md:w-[400px] md:h-[400px] mt-10 clip-path">
               <img src={image} alt="" />
             </div>
           </div>
         </div>
-        <div className="w-1/2 mt-10">
+        <div className="w-full md:w-1/2 mt-10">
           <h2 className="font-bold text-white text-2xl">
             Personal Information
           </h2>
-          <p className="text-gray-400 mt-5 w-2/3">
+          <p className="text-gray-400 mt-5 w-full md:w-2/3">
             I am a dedicated web developer with strong proficiency in HTML, CSS,
             JavaScript, and React. With a solid foundation in front-end
             technologies, I create dynamic and responsive web applications.

@@ -2,7 +2,7 @@ import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="bg-[#272727e6]  flex justify-around mt-24 p-24">
+    <div className="bg-[#272727e6]  flex flex-col lg:flex-row gap-5 lg:gap-0 justify-around mt-24 p-5 lg:p-24">
       <div>
         <h1 className="font-bold text-main text-3xl">Nazmul Haque</h1>
         <p className="text-gray-400"> &copy; All rights reserved by Nazmul </p>

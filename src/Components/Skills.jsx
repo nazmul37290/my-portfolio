@@ -25,33 +25,33 @@ const Skills = () => {
       </div>
       <div>
         <h3 className="my-4 font-bold text-2xl text-white">Expert</h3>
-        <div className="grid grid-cols-6">
-          <div className="hexagon bg-[#272727e6]  flex items-center justify-center  h-[200px] w-[200px]">
+        <div className="grid grid-cols-1  lg:grid-cols-6">
+          <div className="hexagon bg-[#272727e6] mx-auto md:mx-0 flex items-center justify-center h-[200px] w-[200px]">
             <div className="w-[100px] h-[100px] ">
               <img src={html} className="w-full h-full" alt="" />
             </div>
           </div>
-          <div className="hexagon  bg-[#272727e6]  flex items-center justify-center  h-[200px] w-[200px]">
+          <div className="hexagon  bg-[#272727e6] mx-auto md:mx-0 flex items-center justify-center  h-[200px] w-[200px]">
             <div className="w-[100px] h-[100px] ">
               <img src={CSS} className="w-full h-full" alt="" />
             </div>
           </div>
-          <div className="hexagon bg-[#272727e6]  flex items-center justify-center  h-[200px] w-[200px]">
+          <div className="hexagon bg-[#272727e6] mx-auto md:mx-0 flex items-center justify-center  h-[200px] w-[200px]">
             <div className="w-[100px] h-[100px] ">
               <img src={js} className="w-full h-full" alt="" />
             </div>
           </div>
-          <div className="hexagon bg-[#272727e6]  flex items-center justify-center  h-[200px] w-[200px]">
+          <div className="hexagon bg-[#272727e6] mx-auto md:mx-0 flex items-center justify-center  h-[200px] w-[200px]">
             <div className="w-[100px] h-[100px] ">
               <img src={react} className="w-full h-full" alt="" />
             </div>
           </div>
-          <div className="hexagon bg-[#272727e6]  flex items-center justify-center  h-[200px] w-[200px]">
+          <div className="hexagon bg-[#272727e6] mx-auto md:mx-0 flex items-center justify-center  h-[200px] w-[200px]">
             <div className="w-[100px] h-[100px] ">
               <img src={tailwind} className="w-full h-full" alt="" />
             </div>
           </div>
-          <div className="hexagon bg-[#272727e6]  flex items-center justify-center  h-[200px] w-[200px]">
+          <div className="hexagon bg-[#272727e6] mx-auto md:mx-0 flex items-center justify-center  h-[200px] w-[200px]">
             <div className="w-[100px] h-[100px] ">
               <img src={bootstrap} className="w-full h-full" alt="" />
             </div>
@@ -60,33 +60,33 @@ const Skills = () => {
       </div>
       <div>
         <h3 className="my-4 font-bold text-2xl text-white">Comfortable</h3>
-        <div className="grid grid-cols-6">
-          <div className="hexagon bg-[#272727e6]  flex items-center justify-center  h-[200px] w-[200px]">
+        <div className="grid grid-cols-1 lg:grid-cols-6">
+          <div className="hexagon bg-[#272727e6] mx-auto md:mx-0 flex items-center justify-center  h-[200px] w-[200px]">
             <div className="w-[100px] h-[100px] ">
               <img src={node} className="w-full h-full" alt="" />
             </div>
           </div>
-          <div className="hexagon bg-[#272727e6]  flex items-center justify-center  h-[200px] w-[200px]">
+          <div className="hexagon bg-[#272727e6] mx-auto md:mx-0 flex items-center justify-center  h-[200px] w-[200px]">
             <div className="w-[100px] h-[100px] ">
               <img src={express} className="w-full h-full" alt="" />
             </div>
           </div>
-          <div className="hexagon bg-[#272727e6]  flex items-center justify-center  h-[200px] w-[200px]">
+          <div className="hexagon bg-[#272727e6] mx-auto md:mx-0 flex items-center justify-center  h-[200px] w-[200px]">
             <div className="w-[100px] h-[100px] ">
               <img src={mongo} className="w-full h-full" alt="" />
             </div>
           </div>
-          <div className="hexagon bg-[#272727e6]  flex items-center justify-center  h-[200px] w-[200px]">
+          <div className="hexagon bg-[#272727e6] mx-auto md:mx-0 flex items-center justify-center  h-[200px] w-[200px]">
             <div className="w-[100px] h-[100px] ">
               <img src={jwt} className="w-full h-full" alt="" />
             </div>
           </div>
-          <div className="hexagon bg-[#272727e6]  flex items-center justify-center  h-[200px] w-[200px]">
+          <div className="hexagon bg-[#272727e6] mx-auto md:mx-0 flex items-center justify-center  h-[200px] w-[200px]">
             <div className="w-[100px] h-[100px] ">
               <img src={github} className="w-full h-full" alt="" />
             </div>
           </div>
-          <div className="hexagon bg-[#272727e6]  flex items-center justify-center  h-[200px] w-[200px]">
+          <div className="hexagon bg-[#272727e6] mx-auto md:mx-0 flex items-center justify-center  h-[200px] w-[200px]">
             <div className="w-[100px] h-[100px] ">
               <img src={firebase} className="w-full h-full" alt="" />
             </div>
@@ -95,13 +95,13 @@ const Skills = () => {
       </div>
       <div>
         <h3 className="my-4 font-bold text-2xl text-white">Familiar</h3>
-        <div className="grid grid-cols-6 mx-auto">
-          <div className="hexagon bg-[#272727e6]  flex items-center justify-center  h-[200px] w-[200px]">
+        <div className="grid grid-cols-1 lg:grid-cols-6 mx-auto">
+          <div className="hexagon bg-[#272727e6] mx-auto md:mx-0 flex items-center justify-center  h-[200px] w-[200px]">
             <div className="w-[100px] h-[100px] ">
               <img src={photoshop} className="w-full h-full" alt="" />
             </div>
           </div>
-          <div className="hexagon bg-[#272727e6]  flex items-center justify-center  h-[200px] w-[200px]">
+          <div className="hexagon bg-[#272727e6] mx-auto md:mx-0 flex items-center justify-center  h-[200px] w-[200px]">
             <div className="w-[100px] h-[100px] ">
               <img src={figma} className="w-full h-full" alt="" />
             </div>
