@@ -2,6 +2,7 @@ import { Button } from "antd";
 import { FaDownload, FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import { Typewriter } from "react-simple-typewriter";
 import image from "../assets/images/me.png";
+import logo from "../assets/images/logo portfolio.png";
 const Home = () => {
   return (
     <div>
@@ -9,29 +10,15 @@ const Home = () => {
       <section id="home">
         <nav className="flex justify-between items-center px-2 md:px-5 py-4">
           <div>
-            <h3 className="text-main text-lg md:text-xl lg:2xl font-bold">
-              NazmulHaque
-            </h3>
+            <img src={logo} className="w-20" alt="" />
           </div>
           <div className="text-white hidden md:block space-x-5 font-medium">
-            <a href="#home" target="_blank">
-              Home
-            </a>
-            <a href="#about" target="_blank">
-              About
-            </a>
-            <a href="#skills" target="_blank">
-              Skills{" "}
-            </a>
-            <a href="#projects" target="_blank">
-              Projects{" "}
-            </a>
-            <a href="#education" target="_blank">
-              Education
-            </a>
-            <a href="#contact" target="_blank">
-              Contact
-            </a>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills </a>
+            <a href="#projects">Projects </a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
           </div>
           <div className="flex gap-8  items-center">
             <div className="text-white hidden text-2xl lg:flex gap-3">
