@@ -12,6 +12,7 @@ const Portfolio = () => {
     <div className="p-2 lg:p-0">
       <ToastContainer />
       <Home></Home>
+
       <div className="max-w-screen-2xl mx-auto">
         <About></About>
         <Skills></Skills>

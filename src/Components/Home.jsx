@@ -3,11 +3,15 @@ import { FaDownload, FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import { Typewriter } from "react-simple-typewriter";
 import image from "../assets/images/me.png";
 import logo from "../assets/images/logo portfolio.png";
+import Particles from "../../Particles";
 const Home = () => {
   return (
-    <div>
+    <div className="relative">
       {/* Home section */}
-      <section id="home">
+      <div className="absolute top-0 bottom-0 right-0 left-0">
+        <Particles />
+      </div>
+      <section id="home" className="px-10 overflow-hidden">
         <nav className="flex justify-between items-center px-2 md:px-5 py-4">
           <div>
             <img src={logo} className="w-20" alt="" />
@@ -102,6 +106,7 @@ const Home = () => {
             className="absolute  z-10 top-0 lg:-top-16 md:left-10 drop-shadow-2xl "
             src={image}
             alt=""
+            loading="lazy"
           />
         </div>
       </section>
