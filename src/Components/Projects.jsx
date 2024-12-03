@@ -19,7 +19,7 @@ const Projects = () => {
             <img src={project2} className="rounded-2xl" alt="" />
           </div>
           <div className="my-2">
-            <h1 className="text-white font-bold text-2xl">Unity Serve</h1>
+            <h3 className="text-white font-bold text-2xl">Unity Serve</h3>
             <p className="text-gray-400 font-medium">
               A volunteer management Website.
             </p>
@@ -53,7 +53,7 @@ const Projects = () => {
             <img src={project3} className="rounded-2xl" alt="" />
           </div>
           <div className="my-2">
-            <h1 className="text-white font-bold text-2xl">Survey Stream</h1>
+            <h3 className="text-white font-bold text-2xl">Survey Stream</h3>
             <p className="font-medium text-gray-400">
               This is a survey creation and management website
             </p>
@@ -87,7 +87,7 @@ const Projects = () => {
             <img src={project1} className="rounded-2xl" alt="" />
           </div>
           <div className="my-2">
-            <h1 className="text-white font-bold text-2xl">Jute And Wood</h1>
+            <h3 className="text-white font-bold text-2xl">Jute And Wood</h3>
             <p className="text-gray-400 font-medium">
               An arts and crafts related website
             </p>
